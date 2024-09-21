@@ -1,0 +1,114 @@
+var title=document.firstElementChild.lastElementChild.firstElementChild
+undefined
+title
+<h1>?Hello FSW 2?</h1>?
+title.innerHTML
+'Hello FSW 2'
+title.innerHTML = "Happy Weekend FSW 2";
+'Happy Weekend FSW 2'
+title.style.color = 'yellow';
+'yellow'
+
+document.getElementById('btn-don\'t-click-me');
+<button class=?"btn" id=?"btn-don't-click-me" fdprocessedid=?"ovkgtf">?click me?</button>?
+document.getElementById("btn-don't-click-me");
+<button class=?"btn" id=?"btn-don't-click-me" fdprocessedid=?"ovkgtf">?click me?</button>?
+document.getElementById("btn-click-me");
+<button class=?"btn" id=?"btn-click-me" fdprocessedid=?"vgburh">?click me?</button>?
+document.getElementById("btn-don't-click-me").innerHTML = "don't click me";
+"don't click me"
+document.getElementsByTagName("li")[2].style.color="yellow";
+'yellow'
+document.querySelector("h1");
+<h1>?Hello FSW 2?</h1>?
+document.querySelector("ul");
+<ul>?…?</ul>?<li>?…?</li>?<li>?…?</li>?<li>?…?</li>?</ul>?
+document.querySelector("li");
+<li>?…?</li>?::marker?"1"</li>?
+document.querySelector("li a");
+<a href>?facebook?</a>?
+document.querySelector("li");
+<li>?::marker?"1 "<a href>?facebook?</a>?</li>?
+document.querySelectorAll("li");
+NodeList(3) [li, li, li]
+document.querySelectorAll("li")[0];
+<li>?…?</li>?::marker?"1 "<a href>?facebook?</a>?</li>?
+document.querySelector("li");
+<li>?…?</li>?::marker?"1 "<a href>?facebook?</a>?</li>?
+document.querySelector("li a");
+<a href>?facebook?</a>?
+document.querySelector("li a").innerHTML = "INSTAGRAM";
+'INSTAGRAM'
+document.querySelectorAll("li a");
+NodeList(3) [a, a, a]0: a1: a2: alength: 3[[Prototype]]: NodeList
+document.querySelectorAll("li a")[1].innerHTML = 'linkedin';
+'linkedin'
+document.querySelector("li a").style.backgroundColor="green";
+'green'
+document.querySelector("#title").style.fontSize ="40px";
+'40px'
+document.querySelector("#title").style.alignItems ="center";
+'center'
+document.querySelector("#title").style.fontFamily ="'Courier New', Courier, monospace";
+"'Courier New', Courier, monospace"
+let button = "button"
+undefined
+button
+'button'
+button = "button click me dong!"
+'button click me dong!'
+document.getElementById("btn-click-me");
+<button class=?"btn" id=?"btn-click-me" fdprocessedid=?"45ook8">?click me?</button>?
+document.getElementById("btn-click-me").innerHTML = button;
+'button click me dong!'
+document.getElementById("btn-click-me").style.display = 'none';
+'none'
+
+document.querySelector("h1#title");
+<h1 id=?"title">?Hello FSW 2?</h1>?
+document.querySelector("h1#title").classlist;
+undefined
+document.querySelector(".btn").classlist;
+undefined
+document.querySelector(".btn");
+<button class=?"btn" id=?"btn-click-me" fdprocessedid=?"olck05">?click me?</button>?
+document.querySelector(".btn").classList;
+DOMTokenList ['btn', value: 'btn']0: "btn"length: 1value: "btn"[[Prototype]]: DOMTokenListadd: ƒ add()contains: ƒ contains()entries: ƒ entries()forEach: ƒ forEach()item: ƒ item()keys: ƒ keys()length: (...)remove: ƒ remove()replace: ƒ replace()supports: ƒ supports()toString: ƒ toString()toggle: ƒ toggle()value: (...)values: ƒ values()constructor: ƒ DOMTokenList()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.toStringTag): "DOMTokenList"get length: ƒ length()get value: ƒ value()set value: ƒ value()[[Prototype]]: Object
+document.querySelector("h1#title").classList;
+DOMTokenList [value: '']length: 0value: ""[[Prototype]]: DOMTokenList
+document.querySelector("h1#title").classList.add('title-website');
+undefined
+document.querySelector("h1#title").classList;
+DOMTokenList ['title-website', value: 'title-website']
+const myCSS = document.createElement("link");
+undefined
+myCSS
+<link>?
+myCSS.rel='stylesheet';
+'stylesheet'
+myCSS
+<link rel=?"stylesheet">?
+myCSS.type = "text/css";
+'text/css'
+myCSS.type
+'text/css'
+myCSS
+<link rel=?"stylesheet" type=?"text/?css">?
+myCSS.href = './index-mine.css';
+'./index-mine.css'
+myCSS
+<link rel=?"stylesheet" type=?"text/?css" href=?"./?index-mine.css">?
+document.head
+<head>?<meta charset=?"UTF-8">?<meta name=?"viewport" content=?"width=device-width, initial-scale=1.0">?<title>?Document?</title>?<link rel=?"stylesheet" href=?"http:?/?/?127.0.0.1:?5500/?SI%20BINAR/?09-19-2024/?index.css?_cacheOverride=1726840237605">?</head>?
+myCSS.href = 'index-mine.css';
+'index-mine.css'
+document.head
+<head>?…?</head>?<meta charset=?"UTF-8">?<meta name=?"viewport" content=?"width=device-width, initial-scale=1.0">?<title>?Document?</title>?<link rel=?"stylesheet" href=?"http:?/?/?127.0.0.1:?5500/?SI%20BINAR/?09-19-2024/?index.css?_cacheOverride=1726840237605">?</head>?
+document.head.appendChild(myCSS);
+<link rel=?"stylesheet" type=?"text/?css" href=?"index-mine.css">
+document.getElementById("btn-don't-click-me").style.backgroundColor = "black";
+'black'
+document.getElementById("title").textContent = "<em>happy weekend fsw 2</em>";
+'<em>happy weekend fsw 2</em>'
+document.getElementById("title").innerHTML = "<em>happy weekend fsw 2</em>";
+'<em>happy weekend fsw 2</em>'?
